@@ -1,7 +1,7 @@
 package com.example.course.config;
 
 import com.example.course.entities.User;
-import com.example.course.repositories.UseRepository;
+import com.example.course.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +14,7 @@ import java.util.Arrays;
 public class TestConfig implements CommandLineRunner {
 
     @Autowired
-    private UseRepository useRepository;
+    private UserRepository useRepository;
 
     @Override
     public void run(String... args) throws Exception {
